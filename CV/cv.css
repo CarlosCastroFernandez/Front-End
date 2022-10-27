@@ -1,0 +1,49 @@
+.container{
+    margin:10px;
+    display:flex;
+    border:20px solid red;
+    align-items:flex-start;
+    
+    
+}
+.caja1{
+  margin:10px;
+    padding:2% 3%;
+    border:10px solid black;
+    background-color:lightgray;
+    
+    flex-basis:30%;
+}
+.caja2{
+
+    margin:10px;
+    text-align:center;
+    border:10px solid green;
+    flex-basis:60%;
+    padding-bottom:-60px;
+    
+    
+  
+}
+img{
+    width:70%;
+}
+.caja3 {
+    display:flex;
+    border:10px solid yellow;
+    display:flex;
+    flex-direction:column;
+}
+.fecha1{
+    display:flex;
+    border:10px solid brown;
+    justify-content:flex-start;
+    
+}
+.caja4{
+    display:flex;
+    border:10px solid salmon;
+    flex-direction:column;
+    position:relative;
+    top:-69px;
+}
