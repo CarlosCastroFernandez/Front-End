@@ -1,49 +1,117 @@
+:root{
+    --color-fondo:black;
+    --color-fondo-caja1:goldenrod;
+    --color-fondo-caja2:lightgray;
+    --color-barras:greenyellow;
+    --forma-borde:40px;
+    --forma-letras:30px;
+}
+body{
+    box-sizing: border-box;
+    background-color:var(--color-fondo);
+    
+}
 .container{
     margin:10px;
     display:flex;
-    border:20px solid red;
-    align-items:flex-start;
     
-    
+}
+img{
+    display:block;
+    margin:0px auto;
+}
+heading{
+    text-align:center;
+}
+p,a,h5,h4,h3, h2,span,h1, ul, li{
+    font-size:var(--forma-letras);
 }
 .caja1{
   margin:10px;
     padding:2% 3%;
-    border:10px solid black;
-    background-color:lightgray;
-    
+    border-radius:var(--forma-borde);
+    background-color:var(--color-fondo-caja2);
     flex-basis:30%;
 }
 .caja2{
-
     margin:10px;
     text-align:center;
-    border:10px solid green;
+    background-color:var(--color-fondo-caja1);
     flex-basis:60%;
-    padding-bottom:-60px;
-    
-    
-  
+    border-radius:var(--forma-borde);
 }
 img{
     width:70%;
 }
 .caja3 {
-    display:flex;
-    border:10px solid yellow;
-    display:flex;
-    flex-direction:column;
-}
-.fecha1{
-    display:flex;
-    border:10px solid brown;
-    justify-content:flex-start;
     
-}
-.caja4{
+    
     display:flex;
-    border:10px solid salmon;
     flex-direction:column;
+   margin-bottom:-64px;
+}
+
+.fecha1{
+    margin:10px;
+    display:flex;
+  
+    justify-content:flex-start;
+   
+}
+.fecha4{
+    display:flex;
+    
+    justify-content:flex-start;
+    margin:10px;
+}
+.fecha3{
+    display:flex;
+    
+    justify-content:flex-start;
+    margin:10px;
+}
+.fecha2{
+    margin:10px;
+    display:flex;
+  
+    justify-content:flex-start;
+}
+
+.caja4{
+    margin-bottom:-98px;
+    
     position:relative;
-    top:-69px;
+    top:-195px;
+}
+.caja5{
+
+    position:relative;
+    top:-133px;
+    margin-bottom:-124px;
+}
+
+.subida{
+    position:relative;
+    top:-64px;
+    margin-bottom:-41px;
+}
+.bajada{
+    margin-top:-51px;
+}
+[barra1="barra1"]{
+    background-color:var(--color-barras);
+}
+[margenLi="margenes"]{
+    
+    margin-bottom:25px;
+}
+.bajamosMargen{
+    position: relative;
+    top: -63px;
+}
+footer{
+    font-size:var(--forma-letras);
+    text-align:center;
+    color:red;
+    background-color:mediumpurple;
 }
